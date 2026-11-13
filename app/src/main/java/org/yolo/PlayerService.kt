@@ -1,4 +1,4 @@
-package org.retroamp
+package org.yolo
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -34,9 +34,9 @@ class PlayerService : Service(), AudioEngine.Listener {
         const val STOPPED = 0
         const val PLAYING = 1
         const val PAUSED = 2
-        const val ACTION_TOGGLE = "org.retroamp.TOGGLE"
-        const val ACTION_NEXT = "org.retroamp.NEXT"
-        const val ACTION_PREV = "org.retroamp.PREV"
+        const val ACTION_TOGGLE = "org.yolo.TOGGLE"
+        const val ACTION_NEXT = "org.yolo.NEXT"
+        const val ACTION_PREV = "org.yolo.PREV"
         private const val CHANNEL = "playback"
         private const val NOTIF_ID = 1
     }

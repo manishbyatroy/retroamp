@@ -56,3 +56,7 @@ Requires Android 7.0 (API 24) or later.
 - `EQ` and `PL` show or hide the equalizer and playlist windows.
 - The eject button replaces the playlist; `+FILE` and `+DIR` add to it.
 - Double-tap a playlist row to play it.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
