@@ -8,6 +8,10 @@ RetroAmp is an independent project. It is not affiliated with, endorsed by, or d
 
 Early. The app builds and the package verifies, but it has had very little testing on real devices. Expect rough edges and please report what you find.
 
+## Download
+
+Signed APKs are on the [Releases](https://github.com/manishbyatroy/retroamp/releases) page. Android will ask you to allow installing from your browser or file manager.
+
 ## Features
 
 - Plays local audio files picked through the system file picker (single files or a whole folder)
@@ -48,6 +52,8 @@ Then build a debug APK:
 The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 
 Requires Android 7.0 (API 24) or later.
+
+To build a signed release APK, create `keystore.properties` in the project root with `storeFile`, `storePassword`, `keyAlias` and `keyPassword`, then run `./gradlew assembleRelease`. Without that file the release APK is left unsigned.
 
 ## Controls
 
